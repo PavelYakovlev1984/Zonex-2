@@ -1,16 +1,28 @@
-// базовые подключения
 @import "vars";
 @import "mixins";
 @import "fonts";
+@import "vendor";
 @import "settings";
 
-// подключения компонентов страницы
+// CUSTOM COMPONENTS STYLES
 @import "./components/header";
+@import "./components/nav";
+@import "./components/shop-nav";
+@import "./components/hero";
+@import "./components/banners";
+@import "./components/main-products";
+@import "./components/product";
+@import "./components/shop-banners";
+@import "./components/hero-catalog";
+@import "./components/breadcrumbs";
+@import "./components/catalog-filter";
+@import "./components/card";
+@import "./components/card-slider";
+@import "./components/footer";
+// .burger {
+//   --burger-width: 40px;
+//   --burger-height: 20px;
+//   --burger-line-height: 2px;
 
-// тестовые стили, удалите их
-.page__body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: var(--vh);
-}
+//   @include burger;
+// }
